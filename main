@@ -1,0 +1,38 @@
+# AI-Powered Knowledge Assistant Platform 🤖
+
+A full-stack GenAI web app blending **Software Development** and **LLM technology**.
+
+## 🚀 Tech Stack
+- **Frontend:** React + TailwindCSS
+- **Backend:** FastAPI / Node.js (Express)
+- **Database:** MongoDB / PostgreSQL
+- **LLM Integration:** OpenAI API / Hugging Face Transformers
+- **Deployment:** Vercel + Render
+
+## ✨ Features
+- Secure user authentication (JWT)
+- File upload (PDF/Text)
+- Contextual Q&A using LLMs
+- Vector database with FAISS/Chroma
+- Admin dashboard & usage analytics
+
+## 🧠 How It Works
+1. User uploads documents or enters queries.
+2. Backend stores and embeds the data using SentenceTransformers.
+3. Relevant context is retrieved for each query.
+4. LLM (GPT/HuggingFace) generates human-like responses.
+5. Frontend displays results in a real-time chat interface.
+
+## 🔍 Skills Demonstrated
+- Backend API development  
+- Frontend integration with React  
+- Database design  
+- Large Language Model (LLM) integration  
+- Cloud deployment & security
+
+## 📦 Setup
+```bash
+git clone https://github.com/yourusername/ai-knowledge-assistant.git
+cd ai-knowledge-assistant
+npm install
+npm start
