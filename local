@@ -1,0 +1,7 @@
+# Open terminal or VS Code
+git init
+git add .
+git commit -m "Initial commit - AI Knowledge Assistant Platform"
+git branch -M main
+git remote add origin https://github.com/yashwika-ai/knowledge-assistant.git
+git push -u origin main
